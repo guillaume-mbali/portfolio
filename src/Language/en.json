@@ -1,0 +1,71 @@
+{
+    "common": {
+        "translate-button": "EN",
+        "name": "Guillaume M'Bali",
+        "skill-dev": "Fullstack developper",
+        "skill-data": "Data scientist",
+        "welcome-msg": "Welcome to my website !",
+        "description": "Passionate about technology and data science, I use my skills to create innovative solutions. Explore my site and find out how we can work together.",
+        "location": "Montreal"
+    },
+    "academic-career": {
+        "title": "Academic Career",
+        "data-science": {
+            "description": "MS Data Scientist",
+            "description-2": "certified by"
+        },
+        "developer": {
+            "description": "MS Developer Full-Stack at",
+            "description-2": ""
+        },
+        "software-engineering-manager": {
+            "description": "Bachelor Software engineering manager at",
+            "description-2": ""
+        }
+    },
+    "professional-career": {
+        "title": "Profesionnal career",
+        "siri": {
+            "job": "IT project manager"
+        },
+        "infotel": {
+            "job": "Full stack developer"
+        },
+        "unyc": {
+            "job": "Full stack developer"
+        }
+    },
+    "tech-skills": {
+        "description": "My experience in companies and during my studies has enabled me to develop versatile technical expertise. Always keen to discover new technologies, I've been able to work on a variety of projects that have enriched my professional life. This diversity of experience enables me to adapt to different projects and propose innovative solutions."
+    },
+    "contact": {
+        "title": "Contact",
+        "status": "Available",
+        "ping-me-subtitle": "Drop me a message or say 👋 on social networks.",
+        "ping-me-text": "I'm always ready to discuss innovations and exciting projects. Don't hesitate to contact me for a chat.",
+        "cv-download": "Curriculum Vitae"
+    },
+    "portfolio": {
+        "title": "My website",
+        "description": "My website presents some of my web development skills as well as my professional and academic background. It also allows you to get to know me better.",
+        "others": {
+            "title": "Other(s)",
+            "theme": "dark theme",
+            "translation": "translation"
+        },
+        "link": {
+            "title": "Link"
+        }
+    },
+    "rakuten": {
+        "title": "Rakuten multimodal classification",
+        "description": "This project is part of the Rakuten France Multimodal Product Data Classification challenge. Available at https://challengedata.ens.fr/challenges/35, it challenges participants to produce the best possible model for classifying products based on a photo and text. Rakuten is a Japanese online shopping platform, offering a wide range of products from electronics to clothing. Rakuten has several million products in its catalogue, making the cataloguing and sorting of these products a crucial issue for the company. The aim is to develop a multimodal classifier capable of classifying a product based on its thumbnail and a text description.",
+        "others": {
+            "title": "Other(s)"
+        },
+        "link": {
+            "title": "Link",
+            "button": "Github"
+        }
+    }
+}
