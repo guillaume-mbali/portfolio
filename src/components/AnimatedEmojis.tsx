@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Box, SlideFade } from '@chakra-ui/react';
 
-const emojis = ['👋', '🇫🇷', '🇨🇦', '👨🏽‍💻'];
+const emojis = ['👋', '👨🏽‍💻', '🇨🇦', '🇫🇷'];
 
 const AnimatedEmojis = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [resetAnimation, setResetAnimation] = useState(false);
+    const [resetAnimation, setResetAnimation] = useState(true);
 
     useEffect(() => {
         const intervalId = setInterval(() => {

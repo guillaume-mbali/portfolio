@@ -48,7 +48,7 @@ const Home = () => {
 
     return (
         <Container maxW="container.xl" centerContent>
-            <Box as="header" height="100vh" width="100vw" pt={150} alignItems='center'>
+            <Box as="header" height="100vh" pt={150} alignItems='center'>
                 <Flex justifyContent="space-between" alignItems="center" flexDirection="column">
                     <Flex direction='column' alignItems='center' mb={10}>
                         <Heading
@@ -79,7 +79,7 @@ const Home = () => {
                             alt='Guillaume MBali'
                         />
                     </Box>
-                    <Box fontSize={emojiFontSize} zIndex="10">
+                    <Box fontSize={emojiFontSize} zIndex="10" height="3rem">
                         <AnimatedEmojis />
                     </Box>
                     <Flex justifyContent="center" alignItems="center" mb={marginBottom}>

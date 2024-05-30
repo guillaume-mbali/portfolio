@@ -3,7 +3,7 @@ import { extendTheme, ThemeConfig, StyleFunctionProps } from '@chakra-ui/react';
 import "@fontsource/lato";
 
 const config: ThemeConfig = {
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
   useSystemColorMode: false,
 };
 
