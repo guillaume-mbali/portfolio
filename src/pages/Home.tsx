@@ -27,7 +27,7 @@ import AnimatedEmojis from '../components/AnimatedEmojis';
 const Home = () => {
     const socialNetworks = [
         { icon: <IoMdMail />, url: 'mailto:guillaume.mbali72@gmail.com' },
-        { icon: <FaLinkedin />, url: 'www.linkedin.com/in/guillaumembali' },
+        { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/guillaumembali/' },
         { icon: <FaGithub />, url: 'https://github.com/guillaume-mbali' },
     ];
     const curriculumVitae = { icon: <FaFilePdf />, file: 'CV_Guillaume_MBali.pdf' };
