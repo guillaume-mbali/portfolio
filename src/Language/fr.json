@@ -26,7 +26,7 @@
     "professional-career": {
         "title": "Parcours professionnel",
         "siri": {
-            "job": "Charger de projets et suivi logiciel"
+            "job": "Chef de projets logiciels"
         },
         "infotel": {
             "job": "Développeur full stack"
@@ -36,7 +36,7 @@
         }
     },
     "tech-skills": {
-        "description": "Mes expériences en entreprise et durant mes études m'ont permis de développer une expertise technique polyvalente. Toujours avide de découvrir de nouvelles technologies, j'ai pu travailler sur divers projets qui m'ont enrichi professionnellement. Cette diversité d'expériences me permet de m'adapter à différents projets et de proposer des solutions innovantes."
+        "description": "Mes expériences en entreprises et mes études m'ont permis de développer une expertise technique polyvalente. Toujours avide de découvrir de nouvelles technologies, j'ai pu travailler sur divers projets qui m'ont enrichi professionnellement. Cette diversité d'expériences me permet de m'adapter à différents projets et de proposer des solutions innovantes."
     },
     "contact": {
         "title": "Contact",
