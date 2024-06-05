@@ -32,7 +32,9 @@ const Home = () => {
     ];
     const curriculumVitae = { icon: <FaFilePdf />, file: 'CV_Guillaume_MBali.pdf' };
     const emojiFontSize = useBreakpointValue({ base: '2xl', md: '3xl' });
+    const fontSize = useBreakpointValue({ sm: '30px', md: '50px', '2xl': '70px' });
     const marginBottom = useBreakpointValue({ base: '50px', md: '100px' });
+    const marginTop = useBreakpointValue({ base: '-50px', xs: '-80px', md: '-90px', xl: '-60px', '2xl': '0px' });
     const imageSize = useBreakpointValue({ base: '90px', md: '120px' });
     const { t } = useTranslation();
     const stacks = [
@@ -48,7 +50,7 @@ const Home = () => {
 
     return (
         <Container maxW="container.xl" centerContent>
-            <Box as="header" height="100vh" pt={150} alignItems='center'>
+            <Flex as="header" height="100vh" pt={150}alignItems="center" flexDirection="column" justifyContent="center">
                 <Flex justifyContent="space-between" alignItems="center" flexDirection="column">
                     <Flex direction='column' alignItems='center' mb={10}>
                         <Heading
@@ -82,32 +84,23 @@ const Home = () => {
                     <Box fontSize={emojiFontSize} zIndex="10" height="3rem">
                         <AnimatedEmojis />
                     </Box>
-                    <Flex justifyContent="center" alignItems="center" mb={marginBottom}>
+                    <Flex justifyContent="center" alignItems="center" mb={marginBottom} mt={marginTop}>
                         <div className="left-big"></div>
                         <Flex alignItems="center" justifyContent='center' flexDirection="column" position="absolute">
                             <Heading
                                 color={useColorModeValue('rgba(100, 10, 200, 0.5)', 'rgba(160, 10, 250, 0.5)')}
                                 as="h1"
-                                size={{ base: 'xl', sm: '3xl', md: '4xl' }}
+                                fontSize={fontSize}
                                 fontStyle="normal"
                                 lineHeight="normal"
                             >
                                 {t('common.skill-dev')}
                             </Heading>
-                            <Heading
-                                as="h1"
-                                size={{ base: 'xl', sm: '3xl', md: '4xl' }}
-                                color={useColorModeValue('rgba(40, 50, 250, 0.5)', 'rgba(100, 50, 250, 0.5)')}
-                                fontStyle="normal"
-                                lineHeight="normal"
-                            >
-                                {t('common.skill-data')}
-                            </Heading>
                         </Flex>
                         <div className="right-big"></div>
                     </Flex>
                 </Flex>
-                <Flex justifyContent="center" alignItems="center" position='relative' mt={-30}>
+                <Flex justifyContent="center" alignItems="center" position='relative' mt={marginTop}>
                     <ScrollLink to="a-propos" smooth={true} duration={500} offset={-80}>
                         <Text
                             fontSize='6xl'
@@ -118,7 +111,7 @@ const Home = () => {
                         </Text>
                     </ScrollLink>
                 </Flex>
-            </Box>
+            </Flex>
             <section id="a-propos">
                 <Box my={20} maxW="container.sm">
                     <Flex justifyContent='center' alignItems='center' flexDirection="column" gap={5}>

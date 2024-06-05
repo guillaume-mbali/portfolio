@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, useColorModeValue, Link, Text } from '@chakra-ui/react';
+import { Box, Flex, useColorModeValue, Link, Text, useBreakpointValue } from '@chakra-ui/react';
 import { BioYear } from "../components/Bio";
 
 type Props = {
@@ -16,10 +16,12 @@ const AcademicCard = ({ years, school, school_url, description, description2, sc
     const linkColor = useColorModeValue('purple', 'orange');
     const bg = useColorModeValue('rgba(250, 247, 247, 0.2)', 'rgba(47,52,62)');
     const secondaryColor = useColorModeValue('rgba(98, 92, 92, 0.7)', 'rgba(255, 255, 255, 0.6)');
+    const cardWidth = useBreakpointValue({  base: '100%', xs: '200px', sm: '400px', md: '800px' });
+
 
     return (
         <Box
-            width={{ base: '100%', sm: '500px', md: '800px' }}
+            width={cardWidth}
             bg={bg}
             py={3}
             px={5}
@@ -51,7 +53,7 @@ const AcademicCard = ({ years, school, school_url, description, description2, sc
                     <BioYear color={secondaryColor}>{years}</BioYear>
                 </Box>
                 <Box flex="1">
-                    <Flex direction={{ base: 'column', md: 'row' }} alignItems="center">
+                    <Flex direction={{ base: 'column', md: 'row' }} alignItems={{ base: 'center', sm: 'self-start' }}>
                         <Text>
                             {description}{' '}
                             <Link href={school_url} color={linkColor} isExternal>

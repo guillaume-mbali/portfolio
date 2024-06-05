@@ -2,8 +2,8 @@
     "common": {
         "translate-button": "EN",
         "name": "Guillaume M'Bali",
-        "skill-dev": "Fullstack developper",
-        "skill-data": "Data scientist",
+        "skill-dev": "Software developper",
+        "skill-data": "Data Science",
         "welcome-msg": "Welcome to my website !",
         "description": "Passionate about technology and data science, I use my skills to create innovative solutions. Explore my site and find out how we can work together.",
         "location": "Montreal"
